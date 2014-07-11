@@ -8,7 +8,7 @@ using System;
 namespace WinFormGenerator.Attributes
 {
     [AttributeUsage(AttributeTargets.Parameter)]
-    class FromNumberAttribute : Attribute
+    public class FromNumberAttribute : Attribute
     {
         public int Max { get; set; }
         public int Min { get; set; }

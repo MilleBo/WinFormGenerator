@@ -8,8 +8,10 @@ using System;
 namespace WinFormGenerator.Attributes
 {
     [AttributeUsage(AttributeTargets.Class)]
-    class FormAttribute : Attribute
+    public class FormAttribute : Attribute
     {
         public string Text { get; set; }
+
+        public int Height { get; set; }
     }
 }

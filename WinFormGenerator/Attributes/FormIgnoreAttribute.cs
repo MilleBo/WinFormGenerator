@@ -8,7 +8,7 @@ using System;
 namespace WinFormGenerator.Attributes
 {
     [AttributeUsage(AttributeTargets.Property)]
-    class FormIgnoreAttribute : Attribute
+    public class FormIgnoreAttribute : Attribute
     {
     }
 }

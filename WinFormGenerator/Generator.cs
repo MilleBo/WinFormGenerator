@@ -26,6 +26,7 @@ namespace WinFormGenerator
         public static ClassForm GenerateWinForm(Type type, object obj = null)
         {
             var form = new ClassForm(type,obj);
+            form.Height = 0; 
 
             if (obj == null)
             {
@@ -66,6 +67,11 @@ namespace WinFormGenerator
 
         private static int GetFormHeight(ClassForm form)
         {
+            if (form.Height > 39)
+            {
+                return form.Height; 
+            }
+
             var height = 0;
             for (int n = 0; n < form.Controls.Count; n++)
             {
@@ -134,6 +140,10 @@ namespace WinFormGenerator
             if (formAttribute != null)
             {
                 form.Text = formAttribute.Text;
+                if (formAttribute.Height > 0)
+                {
+                    form.Height = formAttribute.Height;
+                }
             }
         }
     }
