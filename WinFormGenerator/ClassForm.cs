@@ -1,11 +1,10 @@
-﻿using System;
+﻿//------------------------------------------------------
+// 
+// Copyright - (c) - 2014 - Mille Boström 
+//
+//------------------------------------------------------
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WinFormGenerator

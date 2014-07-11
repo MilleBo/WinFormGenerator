@@ -1,4 +1,9 @@
-﻿namespace WindowsFormsApplication2
+﻿//------------------------------------------------------
+// 
+// Copyright - (c) - 2014 - Mille Boström 
+//
+//------------------------------------------------------
+namespace WinFormGenerator
 {
     enum TypeOfUser
     {

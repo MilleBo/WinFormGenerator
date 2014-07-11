@@ -32,6 +32,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,8 +41,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Attributes\FormAttribute.cs" />
+    <Compile Include="Attributes\FormIgnoreAttribute.cs" />
+    <Compile Include="Attributes\FormTextAttribute.cs" />
+    <Compile Include="Attributes\FromNumberAttribute.cs" />
+    <Compile Include="ClassForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassForm.Designer.cs">
+      <DependentUpon>ClassForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Config.cs" />
+    <Compile Include="ControlFactory.cs" />
+    <Compile Include="Controls\BaseControl.cs" />
+    <Compile Include="Controls\BoolBaseControl.cs" />
+    <Compile Include="Controls\ClassBaseControl.cs" />
+    <Compile Include="Controls\EnumBaseControl.cs" />
+    <Compile Include="Controls\EnumerableControl.cs" />
+    <Compile Include="Controls\NumberBaseControl.cs" />
+    <Compile Include="Controls\StringBaseControl.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="Generator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ClassForm.resx">
+      <DependentUpon>ClassForm.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

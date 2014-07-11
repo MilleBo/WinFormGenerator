@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WindowsFormsApplication2
+﻿//------------------------------------------------------
+// 
+// Copyright - (c) - 2014 - Mille Boström 
+//
+//------------------------------------------------------
+namespace WinFormGenerator
 {
     public class Config
     {

@@ -1,9 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿//------------------------------------------------------
+// 
+// Copyright - (c) - 2014 - Mille Boström 
+//
+//------------------------------------------------------
+using System;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WinFormGenerator.Controls

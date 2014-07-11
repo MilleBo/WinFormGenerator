@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//------------------------------------------------------
+// 
+// Copyright - (c) - 2014 - Mille Boström 
+//
+//------------------------------------------------------
+using System;
 
-namespace WindowsFormsApplication2.Attributes
+namespace WinFormGenerator.Attributes
 {
     [AttributeUsage(AttributeTargets.Property)]
     class FormIgnoreAttribute : Attribute

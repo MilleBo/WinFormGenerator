@@ -1,17 +1,16 @@
-﻿using System;
+﻿//------------------------------------------------------
+// 
+// Copyright - (c) - 2014 - Mille Boström 
+//
+//------------------------------------------------------
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
-using System.Net.Mail;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Xml.Schema;
-using WindowsFormsApplication2.Attributes;
-using WindowsFormsApplication2.Controls;
+using WinFormGenerator.Controls;
 
-namespace WindowsFormsApplication2
+namespace WinFormGenerator
 {
     public static class ControlFactory
     {
