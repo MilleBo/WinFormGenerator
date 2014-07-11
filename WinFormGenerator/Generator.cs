@@ -66,8 +66,13 @@ namespace WinFormGenerator
 
         private static int GetFormHeight(ClassForm form)
         {
-            return form.Controls[form.Controls.Count - 1].Location.Y +
-                        Config.ControlMargin + Config.FormMargin + form.Controls[0].Height + 40;
+            var height = 0;
+            for (int n = 0; n < form.Controls.Count; n++)
+            {
+                height += form.Controls[n].Height;
+            }
+
+            return height;
         }
 
         private static void GenerateControls(Type type, object obj, PropertyInfo[] properties, ClassForm form, int biggestName)
