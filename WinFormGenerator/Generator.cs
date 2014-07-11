@@ -13,7 +13,7 @@ using WinFormGenerator.Attributes;
 
 namespace WinFormGenerator
 {
-    class Generator
+    public class Generator
     {
         public static Config Config { get; set; }
 

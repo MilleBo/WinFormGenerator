@@ -1,0 +1,7 @@
+c:\users\mille\documents\visual studio 2013\Projects\WinFormGenerator\WinFormGenerator\bin\Release\WinFormGenerator.dll
+c:\users\mille\documents\visual studio 2013\Projects\WinFormGenerator\WinFormGenerator\bin\Release\WinFormGenerator.pdb
+c:\users\mille\documents\visual studio 2013\Projects\WinFormGenerator\WinFormGenerator\obj\Release\WinFormGenerator.csprojResolveAssemblyReference.cache
+c:\users\mille\documents\visual studio 2013\Projects\WinFormGenerator\WinFormGenerator\obj\Release\WinFormGenerator.ClassForm.resources
+c:\users\mille\documents\visual studio 2013\Projects\WinFormGenerator\WinFormGenerator\obj\Release\WinFormGenerator.csproj.GenerateResource.Cache
+c:\users\mille\documents\visual studio 2013\Projects\WinFormGenerator\WinFormGenerator\obj\Release\WinFormGenerator.dll
+c:\users\mille\documents\visual studio 2013\Projects\WinFormGenerator\WinFormGenerator\obj\Release\WinFormGenerator.pdb
